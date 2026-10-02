@@ -202,4 +202,4 @@ def history():
 @app.route("/force-update")
 def fu(): m,h = fetch_high_goals(); return f"Updated {len(m)} High Goals games + {len(h)} Real Scores! <a href='/'>Home</a>"
 
-if __name__=="__main__": app.run(host="0.0.0.0",port=10000)
+if __name__=="__main__": app.run(host="0.0.0.0",port=10000) 
